@@ -1,4 +1,4 @@
-# fly.toml file generated for skills on 2023-02-10T05:08:31+02:00
+# fly.toml file generated for skills on 2023-02-10T05:47:27+02:00
 
 app = "skills"
 kill_signal = "SIGINT"

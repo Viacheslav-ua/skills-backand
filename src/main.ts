@@ -18,7 +18,7 @@ async function bootstrap() {
   SwaggerModule.setup(EndpointEnum.DOCS, app, document);
 
   const config = app.get(ConfigService);
-  const port = config.get<number>('API_PORT') || 3000;
+  const port = config.get<number>('PORT') || 3000;
 
   app.useGlobalPipes(new ValidationPipe());
 
